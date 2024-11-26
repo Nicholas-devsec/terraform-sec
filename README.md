@@ -77,4 +77,3 @@ Replace <instance-public-ip> with the public IP address of your EC2 instance, wh
 - Remote Backend: Store the Terraform state file in a remote backend (such as HCP) to prevent issues with local state files and enable team collaboration.
 - Key Rotation: Rotate your AWS and Vault credentials regularly for added security.
 - Minimal IAM Permissions: Ensure that the AWS IAM credentials used by Terraform have the least privilege—only grant access to the necessary services.
-This project is provided without a license. Please refer to the documentation for more details on usage.
