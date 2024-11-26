@@ -16,7 +16,7 @@ This project demonstrates how to securely use Terraform with AWS and HashiCorp V
 - EC2 Instance Creation: A basic EC2 instance is launched with a key pair generated via Terraform.
 - Key Pair Security: The private key is generated using the tls provider and securely stored in Vault.
 - Environment Variables: Sensitive variables like AWS credentials and Vault paths are managed via environment variables to maintain security.
-- Remote Backend Storage: The Terraform state file is stored remotely using HashiCorp’s Cloud Platform (HCP) to prevent local state file issues and enable team collaboration.
+- Remote Backend Storage: The Terraform state file is stored remotely using HashiCorp’s Cloud Platform (HCP) to prevent local state file issues, enable state locking, and allow for team collaboration. Commands can be executed locally or via the cloud
 
 ## Setup and Usage
 
