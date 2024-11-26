@@ -4,7 +4,7 @@
 
 This project demonstrates how to securely use Terraform with AWS and HashiCorp Vault. It provisions an EC2 instance, generates an RSA key pair, and securely stores the private key in Vault. The project follows best practices for securing sensitive information, such as using environment variables for credentials and remote backend storage for the Terraform state.
 
-## Prerequisites
+## What Yyou Need
 
 - Terraform installed
 - AWS account with IAM permissions to create resources (EC2, Key Pair)
